@@ -63,7 +63,7 @@ export default function Nav() {
 
         {/* Mobile Icon */}
         <button
-          className="md:hidden text-xl"
+          className="md:hidden text-xl ml-5"
           onClick={() => setMobile(!mobile)}
         >
           {mobile ? <ImCross /> : <FaBars />}

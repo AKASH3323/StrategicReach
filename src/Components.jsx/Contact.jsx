@@ -11,8 +11,8 @@ export default function Contact(){
     < >
     
     <div className="items-center w-auto h-auto  justify-center pr-2">
-    <h1 className="text-center text-2xl md:text-5xl font-bold mt-10">Contact <span className="text-gray-500">Us</span></h1>
-    <div className=" flex-none md:flex p-10  gap-16  animation-fade-in animation delay-700 justify-center items-center">
+    <h1 className="text-center text-2xl md:text-5xl  text-gray-900 font-bold mt-2">Contact <span className="text-gray-500">Us</span></h1>
+    <div className=" flex-none md:flex  p-5 md:p-10  gap-10  animation-fade-in animation delay-700 justify-center items-center">
         
         <div className="w-5xl">
             <ul className="ml-5">
@@ -31,7 +31,7 @@ export default function Contact(){
         </div>
         <div className="mt-10 md:mt-0 ">
 <form>
-    <div className="">
+    <div className="p-5">
         <div className="">
     <label className="mr-5 mt-2">Name:</label>
     <input className="bg-gray-300  w-50 md:w-md h-10 rounded-2xl "/></div>
@@ -41,7 +41,7 @@ export default function Contact(){
     <div className=" mt-5">
     <label className="mr-5 mt-2 ">Text Area:</label>
     {/* <input className="bg-gray-300 w-md h-10 rounded-2xl"/></div> */}
-    <textarea className=" w-70 h-40 md:w-110 md:h-45 bg-gray-300 flex rounded-2xl"></textarea>
+    <textarea className=" w-60 h-40 md:w-110 md:h-45 bg-gray-300 flex rounded-2xl"></textarea>
 </div>
 <button className="bg-gray-800 hover:bg-gray-950 ease-in-out-2s text-white p-2 mt-3 h-10 w-40 rounded-2xl ">Submit</button>
     </div>
