@@ -1,6 +1,6 @@
 import cro from "../assets/cro.jpg";
-import Creative from "../assets/Creative Digital Marketing Agency.jpg"
-import Digital  from "../assets/digital marketing.jpg"
+import Creative from "../assets/Creative-Digital-Marketing-Agency.jpg"
+import Digital  from "../assets/digital-marketing.jpg"
 import seo from "../assets/seo.jpg"
 import ppc from "../assets/ppc.jpg"
 import mail from "../assets/mail.jpg"
