@@ -1,41 +1,4 @@
-// import { Link } from "react-router-dom"
-// import { FaBars } from "react-icons/fa6";
-// import { ImCross } from "react-icons/im";
-// import { useState } from "react";
-// export default function Nav(){
-//   const[mobile,setMobile]=useState(false)
-//     return(<>
-    
-//     <div className="mt-2 bg-white p-2 sm:p-5 rounded-4xl flex justify-between mx-5 sticky top-0  z-50 ">
-//       <h1 className="text-2xl  text-gray-500 font-bold">StrategicReach</h1>
-//       <nav className="justify-between hidden md:flex ">
-        
-//         <ul className="
-//          flex
-//           justify-center 
-//           gap-4 sm:gap-10 md:gap-20
-//           text-sm sm:text-base
-//           text-gray-600
-          
-         
-//         ">
-//           <li><Link to="/" hrefLang="#">Home</Link></li>
-//           <li><Link to="/About">About</Link></li>
-//           <li><Link to="/Projects">Services</Link></li>
-          
-//           <li><Link to="/Contact" hrefLang="#">Contact</Link></li>
-         
-//         </ul>
-        
-        
-//       </nav>
-//       <button className="p-2">
-//         {mobile? }
-//         <FaBars />
-//       </button>
-//     </div>
-//     </>)
-// }
+
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { ImCross } from "react-icons/im";
