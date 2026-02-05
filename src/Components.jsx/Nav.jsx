@@ -14,7 +14,7 @@ export default function Nav() {
           StrategicReach
         </h1>
 
-        {/* Desktop Menu */}
+       
         <nav className="hidden md:flex">
           <ul className="flex gap-15 text-gray-600">
             <li><Link to="/">Home</Link></li>
@@ -24,7 +24,7 @@ export default function Nav() {
           </ul>
         </nav>
 
-        {/* Mobile Icon */}
+        
         <button
           className="md:hidden text-xl ml-5"
           onClick={() => setMobile(!mobile)}
@@ -33,7 +33,7 @@ export default function Nav() {
         </button>
       </div>
 
-      {/* Mobile Menu (shows ONLY when icon is clicked) */}
+      
       {mobile && (
         <nav className="md:hidden bg-white mx-5 mt-2 rounded-xl">
           <ul className="flex flex-col items-center gap-4 py-4 text-gray-600">
